@@ -62,7 +62,7 @@ def how_to_play():
 
 while True:
     show_menu()
-    choice = input("\nEnter your choice (1/2/3/4): ")
+    choice = input("\nEnter your choice (1/2/3/4):/n")
 
     if choice == "1":
         player_name = input("Enter your name: ")
