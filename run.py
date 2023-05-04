@@ -75,7 +75,6 @@ while True:
         for j in range(5):
              # a call function to play a round of rock-paper-scissors
             play_round(player_name)
-            data_str = input("Enter your data here")
             # to add delay before displaying the next round
             for letter in "Round " + str(j+1) + "...":
                 print(letter, end='', flush=True) ,
