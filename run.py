@@ -1,6 +1,7 @@
+# Importing random and time modules to generate random choices for the player
 import random
 import time
-
+# Initializing an empty dictionary for the leaderboard to keep track of wine, ties and loses
 leaderboard = {}
 def show_menu():
     print("Welcome to Rock-Paper-Scissors!😁")
@@ -85,5 +86,5 @@ while True:
     else:
         print("\nInvalid choice. Please try again.")
 
-    # Add a delay before displaying the menu again
+    # this is to a delay before displaying the menu again
     time.sleep(0.5)
